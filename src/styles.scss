@@ -1,0 +1,18 @@
+
+:root {
+    --amplify-primary-color: #ff6347;
+    --amplify-primary-tint: #ff7359;
+    --amplify-primary-shade: #e0573e;
+  }
+
+.logo {
+  background-image: url('./assets/logo.svg');
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.logo_small {
+  background-image: url('./assets/logo_small.svg');
+  background-position: center;
+  background-size: auto;
+}

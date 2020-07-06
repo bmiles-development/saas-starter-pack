@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="55mm"
+   height="55mm"
+   viewBox="0 0 55 55"
+   version="1.1"
+   id="svg16">
+  <defs
+     id="defs10" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(0,-242)">
+    <circle
+       id="path18"
+       cx="27.346577"
+       cy="269.65341"
+       r="27.214285"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332" />
+    <path
+       style="fill:none;stroke-width:0.75595242"
+       d="M 19.427355,295.37069 C 12.41691,293.07931 6.1021925,287.30398 2.7973226,280.16116 1.035367,276.35305 0.70275502,274.6385 0.72388411,269.47298 c 0.0219313,-5.36179 0.33527549,-6.7824 2.43816559,-11.05398 2.8668929,-5.82348 7.6492263,-10.48938 13.6199853,-13.28836 3.609834,-1.69223 5.309068,-2.00768 10.715733,-1.98929 5.317104,0.0181 7.142856,0.36047 10.583333,1.98467 5.849932,2.76167 9.892713,6.55567 12.904229,12.11012 2.464123,4.54484 2.592364,5.15733 2.584077,12.34169 -0.0073,6.385 -0.28271,8.11347 -1.772187,11.12486 -4.643358,9.38783 -13.180338,15.02561 -23.403401,15.45548 -3.525115,0.14823 -7.051093,-0.16144 -8.966464,-0.78748 z"
+       id="path20" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="17.216816"
+       y="273.28201"
+       id="text43"><tspan
+         id="tspan41"
+         x="17.216816"
+         y="273.28201"
+         style="stroke-width:0.26458332">App</tspan></text>
+  </g>
+</svg>
