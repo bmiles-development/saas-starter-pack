@@ -10,6 +10,6 @@ This App Contains the following features:
 
 1. Clone this repo
 2. Set up an AWS account
-3. Amplify init? Check Amplify docs?
-4. Amplify Push
-
+3. amplify init --app git@github.com/bmiles-development/saas-starter-pack
+4. npm build
+5. npm serve
