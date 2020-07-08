@@ -8,8 +8,7 @@ This App Contains the following features:
 
 ## Project setup
 
-1. Clone this repo
-2. Set up an AWS account
-3. amplify init --app git@github.com/bmiles-development/saas-starter-pack
-4. npm build
-5. npm serve
+1. Set up an AWS account
+2. amplify init --app git@github.com/bmiles-development/saas-starter-pack
+3. npm build
+4. npm serve
