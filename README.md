@@ -9,6 +9,7 @@ This App Contains the following features:
 ## Project setup
 
 1. Set up an AWS account
+2. Create an IAM user and associate with a group that has AdministratorAccess Policy
 2. amplify init --app git@github.com:bmiles-development/saas-starter-pack
 3. npm build
 4. npm serve
