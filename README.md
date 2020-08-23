@@ -15,8 +15,6 @@ This App Contains the following features:
 5. npm serve
 
 
-check- vue ui - did it link to the app-template-amplify-raw cognito? it used the same bmilesp-tu2@gmail.com login? also i was already logged in? maybe a vue ui issue?
-
 had these errors at step 5: 
 
 npm ERR! missing script: start
@@ -26,3 +24,5 @@ npm ERR!     /home/bp/.npm/_logs/2020-07-17T02_46_37_723Z-debug.log
 An error occurred during the push operation: Command failed: npm start
 
 then when i ran npm build i got this npm WARN build `npm build` called with no arguments. Did you mean to `npm run-script build`?npm WARN build `npm build` called with no arguments. Did you mean to `npm run-script build`?
+
+But it worked.
