@@ -4,7 +4,7 @@ The goal of the SaaS Starter Pack is to have an out of the box generic Website w
 AfA fully functioning static website with AWS Amplify backend and vue.js static html front end with Vuetify.
 
 This App Contains the following features:
-* Full Login Flow With AWS Cognito backend including, Signup, Login, Verify Account Code sent via email (based on the excellent tutorials from [codeguru.io](https://www.youtube.com/results?search_query=codeguru.io)
+* Full Login Flow With AWS Cognito backend including, Signup, Login, Verify Account Code sent via email (based on the excellent tutorials from [codeguru.io](https://www.youtube.com/watch?v=HgpVgFdBS2E&list=PLAl8os33KyOVD4asd0Sf7BcuE41fu7i6c)
 * Basic Admin Console to start midifying
 * Full Amplify I18n L12n
 
