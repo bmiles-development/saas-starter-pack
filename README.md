@@ -7,6 +7,7 @@ This App Contains the following features:
 * Full Login Flow With AWS Cognito backend including, Signup, Login, Verify Account Code sent via email (based on the excellent tutorials from [codeguru.io](https://www.youtube.com/watch?v=HgpVgFdBS2E&list=PLAl8os33KyOVD4asd0Sf7BcuE41fu7i6c))
 * Basic Admin Console to start midifying
 * Full Amplify I18n L12n
+* Easily customize theme colors in the src/plugins/vuetify.js file and the src/styles.scss file
 
 ## Project setup
 
