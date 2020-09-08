@@ -1,6 +1,7 @@
 {
-  "en": {
-      "Sign In": "Sign In",
-      "Sign Up": "Sign Up Now"
-  }
+  "Sign In": "Sign In",
+  "Sign Up": "Sign Up Now",
+  "WelcomeText": "Welcome",
+  "AppTitle": "Application Title",
+  "AppBiLine": "The Ultimate App"
 }
