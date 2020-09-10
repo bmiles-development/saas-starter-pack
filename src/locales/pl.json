@@ -1,7 +1,13 @@
 {
-    "Sign In": "Zaloguj",
-    "Sign Up": "Rejestracja",
+    "SignIn": "Zaloguj",
+    "SignUp": "Rejestracja",
+    "Login": "Zaloguj",
+    "Logout": "Wyloguj",
     "WelcomeText": "Witaj",
     "AppTitle": "Aplikacja Nazwa",
-    "AppBiLine": "Super Aplikacja"
+    "AppBiLine": "Super Aplikacja",
+    "Dashboard": "Panel",
+    "Save": "Zapisz",
+    "Search": "Szukaj",
+    "YourAccount": "Konto"
   }
