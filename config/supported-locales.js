@@ -1,5 +1,6 @@
 export default {
   en: "English",
-  fr: "French"
+  fr: "French",
+  pl: 'Polish'
   //ar: "عربي (Arabic)"
 }

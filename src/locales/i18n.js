@@ -3,6 +3,24 @@ import VueI18n from 'vue-i18n'
 
 Vue.use(VueI18n)
 
+function deafultLocale(){
+  const locales = require.context('.', true, /[A-Za-z0-9-_,\s]+\.json$/i)
+
+  let urlLocale = ''
+  const localesKeys = locales.keys();
+  for(let i = 0; i < localesKeys.length; i++) {
+    const matched = localesKeys[i].match(/([A-Za-z0-9-_]+)\./i);
+    const regex = new RegExp(matched[1]);
+    urlLocale = window.location.pathname.match(regex);
+
+    if (urlLocale !== null) {
+      break;
+    }
+  }
+
+  return urlLocale[0]
+}
+
 function loadLocaleMessages () {
   const locales = require.context('.', true, /[A-Za-z0-9-_,\s]+\.json$/i)
   const messages = {}
@@ -17,7 +35,7 @@ function loadLocaleMessages () {
 }
 
 export default new VueI18n({
-    locale: 'en',
+    locale: deafultLocale() || 'en',
     fallbackLocale: 'en',
     messages: loadLocaleMessages()
 })
