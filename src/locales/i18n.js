@@ -18,7 +18,7 @@ function deafultLocale(){
     }
   }
 
-  return urlLocale[0]
+  return typeof urlLocale == Array ? urlLocale[0] : 'en';
 }
 
 function loadLocaleMessages () {

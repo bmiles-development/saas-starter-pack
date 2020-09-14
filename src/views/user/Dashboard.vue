@@ -14,7 +14,6 @@
 // @ is an alias to /src
 import DashboardLayout from "@/layouts/DashboardLayout.vue";
 
-
 export default {
   name: "Home",
   data: () => ({

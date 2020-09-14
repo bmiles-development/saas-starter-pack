@@ -39,7 +39,7 @@
                 color="primary"
                 class
                 v-on:click="updatePassword"
-              >{{updatePasswordText}}</v-btn>
+              >{{ $t('UpdatePasswordText')}}</v-btn>
             </v-card-actions>
           </v-row>
         </v-card-actions>
@@ -51,17 +51,15 @@
 <script>
 // @ is an alias to /src
 import DefaultLayout from "@/layouts/DefaultLayout.vue";
-import { I18n } from "@aws-amplify/core";
+import i18n from "@/locales/i18n.js"
 import { Auth } from "aws-amplify";
 
 export default {
+  i18n,
   name: "Home",
   data: () => ({
     user:"",
     userEmail:"",
-    emailText: I18n.get("Email"),
-    updatePasswordText: I18n.get("Update Password"),
-    AppBiLine: I18n.get("The Ultimate App")
   }),
   created() {
     this.$emit("update:layout", DefaultLayout);
