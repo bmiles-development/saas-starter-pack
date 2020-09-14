@@ -14,7 +14,7 @@
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title v-text="accountText"></v-list-item-title>
+              <v-list-item-title v-text="$t('YourAccount')"></v-list-item-title>
             </v-list-item-content>
           </v-list-item>
           <v-list-item v-on:click="signOut">
@@ -22,7 +22,7 @@
               <v-icon>mdi-door</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title v-text="logoutText"></v-list-item-title>
+              <v-list-item-title v-text="$t('Logout')"></v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list-item-group>
@@ -30,23 +30,21 @@
     </v-menu>
   </template>
   <template v-else>
-    <v-btn text :to="{name: 'signup'}">{{signupLink}}</v-btn>
-    <v-btn text :to="{name: 'login'}">{{loginLink}}</v-btn>
+    <v-btn text :to="{name: 'signup'}">{{$t('SignUp')}}</v-btn>
+    <v-btn text :to="{name: 'login'}">{{$t('Login')}}</v-btn>
     <!-- <v-btn text v-on:click="changeLanguage">test</v-btn> -->
   </template>
   </div>
 </template>
 <script>
-import { I18n } from "@aws-amplify/core";
+
 import { Auth } from "aws-amplify";
+import i18n from "@/locales/i18n.js"
+
 export default {
+  i18n,
   data() {
     return {
-      dashboardText: I18n.get("Dashboard"),
-      signupLink: I18n.get("Sign Up"),
-      loginLink: I18n.get("Login"),
-      accountText: I18n.get("Your Account"),
-      logoutText: I18n.get("Logout"),
       user: ""
     };
   },

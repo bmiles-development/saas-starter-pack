@@ -85,14 +85,18 @@
         style="width: 300px"
         class="ml-0 pl-4"
       >
-        <span class="hidden-sm-and-down">{{appTitle}}</span>
+        <span class="hidden-sm-and-down">{{$t('AppTitle')}}</span>
+
+        <select v-model="$i18n.locale">
+          <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
+        </select>
       </v-toolbar-title>
       <v-text-field
         flat
         solo-inverted
         hide-details
         prepend-inner-icon="mdi-magnify"
-        label="Search"
+        :label=" $t('Search') "
         class="hidden-sm-and-down"
       ></v-text-field>
       <v-spacer></v-spacer>
@@ -198,7 +202,7 @@
           <v-btn
             text
             @click="dialog = false"
-          >Save</v-btn>
+          >{{$t('Save')}}</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -206,10 +210,11 @@
 </template>
 
 <script>
-  import { I18n } from "@aws-amplify/core";
+  import i18n from "@/locales/i18n.js"
   import LoginLogout from "@/layouts/components/LoginLogout.vue"
 
   export default {
+    i18n,
     components: {
       LoginLogout
     },
@@ -217,9 +222,9 @@
       source: String,
     },
     data: () => ({
+      langs: ['en', 'pl', 'fr'],
       dialog: false,
       drawer: null,
-       appTitle: I18n.get("App"),
       items: [
         { icon: 'mdi-contacts', text: 'Analysis' },
         { icon: 'mdi-playlist-edit', text: 'Items' },
