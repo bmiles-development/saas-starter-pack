@@ -5,9 +5,9 @@
       <v-spacer></v-spacer>
       <LoginLogout/>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <slot />
-    </v-content>
+    </v-main>
     <v-footer color="primary" padless>
       <v-row justify="center" no-gutters>
         <v-col class="primary py-4 text-center white--text" cols="12">
