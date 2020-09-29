@@ -31,6 +31,12 @@
               <a href="forgot_password">{{forgotPasswordQuestionText}} ?</a>
             </p>
           </v-form>
+          <v-snackbar
+        v-model="snackbar"
+        :vertical="vertical"
+      >
+        {{message}}
+      </v-snackbar>
         </v-card-text>
 
         <v-card-actions class="pt-0">
@@ -62,8 +68,10 @@
 import LoginOrSignupLayout from "@/layouts/LoginOrSignupLayout";
 import { I18n } from "@aws-amplify/core";
 import { Auth } from "aws-amplify";
+import vuetify from '@/plugins/vuetify'
 
 export default {
+  vuetify,
   data () {
     return {
       forgotPasswordQuestionText: I18n.get("Forgot Password"),
@@ -76,7 +84,10 @@ export default {
       signupLinkText: I18n.get("Create a new account"),
       apiRequest: false,
       username: this.$route.query.email,
-      password: ""
+      password: "",
+      snackbar: false,
+      vertical: true,
+      message: ''
     }
   },
   created() {
@@ -96,6 +107,8 @@ export default {
         .catch(err => {
           this.apiRequest = false;
           console.log("error login", err);
+          this.snackbar = true;
+          this.message = err.message
         });
     }
   }

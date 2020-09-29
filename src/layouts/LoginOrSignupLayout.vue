@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-content>
+    <v-main>
       <v-container class="fill-height" fluid>
         <v-layout align-center justify-center>
           <v-col cols="12">
@@ -9,6 +9,6 @@
           </v-col>
         </v-layout>
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
