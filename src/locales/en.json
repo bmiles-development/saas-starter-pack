@@ -15,6 +15,8 @@
   "Password": "Password",
   "NoAccount": "No account",
   "CreateAccount": "Create a new account",
+  "CreateAccountTitle": "Create Account",
+  "HaveAccount": "Have a account",
   "Errors": {
     "required": "Item is required",
     "email": "This is not email"

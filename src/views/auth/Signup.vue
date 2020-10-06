@@ -3,7 +3,7 @@
     <v-col cols="12" sm="8" md="4">
       <v-card outlined>
         <v-toolbar color="primary" dark flat>
-          <v-toolbar-title>{{ signupTitleText }}</v-toolbar-title>
+          <v-toolbar-title>{{ $t("CreateAccountTitle") }}</v-toolbar-title>
           <v-spacer></v-spacer>
           <v-tooltip bottom>
             <span>Source</span>
@@ -18,7 +18,7 @@
           <v-form>
             <v-text-field
               v-model="username"
-              :label="signupText"
+              :label="$t('Email')"
               id="username"
               name="email"
               prepend-icon="mdi-account"
@@ -27,7 +27,7 @@
             ></v-text-field>
             <v-text-field
               v-model="password"
-              :label="passwordText"
+              :label="$t('Password')"
               id="password"
               name="password"
               prepend-icon="mdi-lock"
@@ -44,7 +44,7 @@
               class="mb-2"
               v-on:click="validate"
               large
-              >{{ signupActionText }}</v-btn
+              >{{ $t("CreateAccountTitle") }}</v-btn
             >
           </v-card-actions>
         </v-row>
@@ -52,8 +52,8 @@
       <v-col cols="12">
         <v-spacer></v-spacer>
         <p align="center">
-          {{ loginQuestionText }}
-          <a href="login">{{ loginLinkText }}</a>
+          {{ $t("HaveAccount") }}
+          <a href="login">{{ $t("Login") }}</a>
         </p>
       </v-col>
     </v-col>
@@ -62,7 +62,6 @@
 
 <script>
 import LoginOrSignupLayout from "@/layouts/LoginOrSignupLayout";
-import { I18n } from "@aws-amplify/core";
 import i18n from "@/locales/i18n.js";
 import { Auth } from "aws-amplify";
 import { required, email } from "vuelidate/lib/validators";
@@ -72,12 +71,6 @@ export default {
   data: () => ({
     username: "",
     password: "",
-    signupActionText: I18n.get("Create Account"),
-    signupText: I18n.get("Email"),
-    passwordText: I18n.get("Password"),
-    signupTitleText: I18n.get("Create Account"),
-    loginQuestionText: I18n.get("Have an account?"),
-    loginLinkText: I18n.get("Login"),
     apiRequest: false,
   }),
   computed: {
