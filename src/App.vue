@@ -5,16 +5,19 @@
 </template>
 
 <script>
+import Vue from "vue";
+import { Vuelidate } from "vuelidate";
+import vuetify from "@/plugins/vuetify";
 
+Vue.use(Vuelidate);
 export default {
+  vuetify,
   name: "App",
   data() {
     return {
-      layout: `div`
+      layout: `div`,
     };
   },
-  created(){
-    
-  }
+  created() {},
 };
 </script>

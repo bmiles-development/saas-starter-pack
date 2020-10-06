@@ -14,7 +14,7 @@
   "ForgotPassword": "Nie pamiętasz hasła",
   "Password": "Hasło",
   "NoAccount": "Nie masz konta",
-  "CreateAccount": "Załó konto",
+  "CreateAccount": "Załóż konto",
   "Errors": {
     "required": "Pole wymagane",
     "email": "To nie jest email"

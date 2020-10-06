@@ -73,15 +73,9 @@
 import LoginOrSignupLayout from "@/layouts/LoginOrSignupLayout";
 import i18n from "@/locales/i18n.js";
 import { Auth } from "aws-amplify";
-import vuetify from "@/plugins/vuetify";
-import { Vuelidate } from "vuelidate";
 import { required, minLength, email } from "vuelidate/lib/validators";
-import Vue from "vue";
-
-Vue.use(Vuelidate);
 
 export default {
-  vuetify,
   i18n,
   data() {
     return {
