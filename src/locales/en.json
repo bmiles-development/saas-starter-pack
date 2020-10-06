@@ -9,5 +9,14 @@
   "Dashboard": "Dashboard",
   "Save": "Save",
   "Search": "Search",
-  "YourAccount": "Your Account"
+  "Email": "Email",
+  "YourAccount": "Your Account",
+  "ForgotPassword": "Forgot Password",
+  "Password": "Password",
+  "NoAccount": "No account",
+  "CreateAccount": "Create a new account",
+  "Errors": {
+    "required": "Item is required",
+    "email": "This is not email"
+  }
 }
