@@ -20,5 +20,12 @@
   "Errors": {
     "required": "Item is required",
     "email": "This is not email"
-  }
+  },
+  "EnterEmail": "Please Enter your email",
+  "ForgotPassword": "Forgot Password",
+  "ResetPassword": "Reset Password",
+  "BackToLogin": "BackToLogin",
+  "ResendCodeQuestionText": "Didnt get your code?",
+  "ResendCodeLinkText": "Resend Confirmation Code",
+  "ConfirmationText": "Confirmation Code"
 }

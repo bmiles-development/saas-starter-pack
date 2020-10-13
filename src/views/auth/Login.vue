@@ -105,7 +105,7 @@ export default {
   validations: {
     password: {
       required,
-      minLength: minLength(10),
+      minLength: minLength(4),
     },
     username: {
       required,

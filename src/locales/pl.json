@@ -20,5 +20,12 @@
   "Errors": {
     "required": "Pole wymagane",
     "email": "To nie jest email"
-  }
+  },
+  "EnterEmail": "Podaj Twój adres email",
+  "ForgotPassword": "Przypomnij Hasło",
+  "ResetPassword": "Resetuj Hasło",
+  "BackToLogin": "Logowanie",
+  "ResendCodeQuestionText": "Nie otrzymałeś kodu?",
+  "ResendCodeLinkText": "Wyślij ponownie kod",
+  "ConfirmationText": "Kod potwierdzający"
 }
