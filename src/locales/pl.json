@@ -1,13 +1,31 @@
 {
-    "SignIn": "Zaloguj",
-    "SignUp": "Rejestracja",
-    "Login": "Zaloguj",
-    "Logout": "Wyloguj",
-    "WelcomeText": "Witaj",
-    "AppTitle": "Aplikacja Nazwa",
-    "AppBiLine": "Super Aplikacja",
-    "Dashboard": "Panel",
-    "Save": "Zapisz",
-    "Search": "Szukaj",
-    "YourAccount": "Konto"
-  }
+  "SignIn": "Zaloguj",
+  "SignUp": "Rejestracja",
+  "Login": "Zaloguj",
+  "Logout": "Wyloguj",
+  "WelcomeText": "Witaj",
+  "AppTitle": "Aplikacja Nazwa",
+  "AppBiLine": "Super Aplikacja",
+  "Dashboard": "Panel",
+  "Save": "Zapisz",
+  "Search": "Szukaj",
+  "Email": "Email",
+  "YourAccount": "Konto",
+  "ForgotPassword": "Nie pamiętasz hasła",
+  "Password": "Hasło",
+  "NoAccount": "Nie masz konta",
+  "CreateAccount": "Załóż konto",
+  "CreateAccountTitle": "Tworzenie konta",
+  "HaveAccount": "Posiadasz konto?",
+  "Errors": {
+    "required": "Pole wymagane",
+    "email": "To nie jest email"
+  },
+  "EnterEmail": "Podaj Twój adres email",
+  "ForgotPassword": "Przypomnij Hasło",
+  "ResetPassword": "Resetuj Hasło",
+  "BackToLogin": "Logowanie",
+  "ResendCodeQuestionText": "Nie otrzymałeś kodu?",
+  "ResendCodeLinkText": "Wyślij ponownie kod",
+  "ConfirmationText": "Kod potwierdzający"
+}
