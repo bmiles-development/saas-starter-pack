@@ -1,7 +1,15 @@
 {
-	"Sign In": "Se connecter",
-	"Sign Up": "S'inscrire",
+	"SignIn": "Se connecter",
+	"SignUp": "S'inscrire",
+	"Login": "s'identifier",
+    "Logout": "Logout",
 	"WelcomeText": "Bienvenue",
 	"AppTitle": "Titre de l'application",
-	"AppBiLine": "L'application ultime"
+	"AppBiLine": "L'application ultime",
+	"Dashboard": "Dashboard",
+    "Save": "enregistrer",
+    "Search": "chercher",
+    "YourAccount": "Your Account",
+	"Email": "Email",
+    "UpdatePasswordText": "Mettre à jour le mot de passe"
   }

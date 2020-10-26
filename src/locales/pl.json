@@ -1,4 +1,6 @@
 {
+  "Email": "Adres email",
+  "UpdatePasswordText": "Aktualizuj Hasło",
   "SignIn": "Zaloguj",
   "SignUp": "Rejestracja",
   "Login": "Zaloguj",
@@ -9,7 +11,6 @@
   "Dashboard": "Panel",
   "Save": "Zapisz",
   "Search": "Szukaj",
-  "Email": "Email",
   "YourAccount": "Konto",
   "ForgotPassword": "Nie pamiętasz hasła",
   "Password": "Hasło",
