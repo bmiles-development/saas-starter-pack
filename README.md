@@ -1,5 +1,5 @@
 # SaaS Starter Pack - And More
-The goal of the SaaS Starter Pack is to have an out of the box generic Website wuth Authentication/Aithorization, I18n/L12n, Subscriptons and payment methods, basic admin pages so that you can start building your dream SaaS application without having to worry about all of this preliminary work.
+The goal of the SaaS Starter Pack is to have an out of the box generic Website with Authentication/Aithorization, I18n/L12n, Subscriptons and payment methods, basic admin pages so that you can start building your dream SaaS application without having to worry about all of this preliminary, non-buisness logic work.
 
 Featuring a fully functioning static website with AWS Amplify backend and Vue.js static html front end with Vuetify.
 
