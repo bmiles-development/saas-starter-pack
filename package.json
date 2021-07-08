@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@aws-amplify/auth": "^3.2.5",
-    "@aws-amplify/ui-vue": "^0.2.3",
+    "@aws-amplify/ui-vue": "^1.0.13",
     "@mdi/font": "^3.6.95",
     "aws-amplify": "^3.0.9",
     "core-js": "^3.6.4",
@@ -19,7 +19,7 @@
     "vue-i18n": "^8.21.0",
     "vue-router": "^3.1.6",
     "vuelidate": "^0.7.5",
-    "vuetify": "^2.2.11"
+    "vuetify": "^2.3.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",

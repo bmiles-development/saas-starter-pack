@@ -86,10 +86,10 @@
         class="ml-0 pl-4"
       >
         <span class="hidden-sm-and-down">{{$t('AppTitle')}}</span>
-
+        <!--
         <select v-model="$i18n.locale">
           <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
-        </select>
+        </select> -->
       </v-toolbar-title>
       <v-text-field
         flat

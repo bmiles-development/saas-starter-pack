@@ -15,6 +15,6 @@ This App Contains the following features:
 2. Create an IAM user and associate with a group that has AdministratorAccess Policy
 3. create an AWS profile on your machine (makes the Amplify CLI much easier to use if you do) https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
 4. amplify init --app git@github.com:bmiles-development/saas-starter-pack
-5. npm build
-6. npm serve
+5. npm run build
+6. npm run serve
 
