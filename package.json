@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@aws-amplify/auth": "^3.2.5",
-    "@aws-amplify/ui-vue": "^1.0.13",
+    "@aws-amplify/ui-vue": "^3.1.20",
     "@mdi/font": "^3.6.95",
-    "aws-amplify": "^3.0.9",
+    "aws-amplify": "^5.3.4",
     "core-js": "^3.6.4",
     "material-design-icons": "^3.0.1",
     "roboto-fontface": "*",
